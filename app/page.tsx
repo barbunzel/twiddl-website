@@ -119,14 +119,13 @@ export default function Home() {
           </div>
           <article className="latest-card">
             <div className="release-meta">
-              <span className="status-badge status-testing">In testing</span>
-              <span>0.1.1</span>
+              <span className="status-badge status-released">Released</span>
+              <span>0.1.2</span>
             </div>
-            <h3>Quieter notes, easier to hear.</h3>
+            <h3>Faster pickup, steadier tuning.</h3>
             <p>
-              The next update focuses on picking up soft low notes from
-              unplugged electric guitars and basses, with a wider set of audio
-              tests behind it.
+              Twiddl now responds better to quiet low strings, changing notes,
+              overlapping harmonics, and background noise.
             </p>
           </article>
         </section>

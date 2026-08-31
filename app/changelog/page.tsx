@@ -28,6 +28,35 @@ export default function Changelog() {
               <time dateTime="2026-08">August 2026</time>
             </div>
             <div className="release-copy">
+              <p className="release-version">0.1.2 · iPhone</p>
+              <h2>Faster pickup, steadier tuning.</h2>
+              <p>
+                Version 0.1.2 improves how Twiddl responds to quiet and changing
+                notes on iPhone.
+              </p>
+              <ul>
+                <li>
+                  Better pickup of quiet low strings, including unplugged
+                  electric guitars and basses.
+                </li>
+                <li>
+                  More reliable octave selection when neighboring harmonics
+                  ring together, including on 12-string guitars.
+                </li>
+                <li>
+                  Smoother transitions between notes and better response around
+                  background noise.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article className="release-entry">
+            <div className="release-date">
+              <span className="status-badge status-released">Released</span>
+              <time dateTime="2026-08">August 2026</time>
+            </div>
+            <div className="release-copy">
               <p className="release-version">0.1.1 · iPhone and Android</p>
               <h2>Quieter strings, clearer high notes.</h2>
               <p>

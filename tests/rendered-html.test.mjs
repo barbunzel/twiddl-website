@@ -55,7 +55,8 @@ test("renders Twiddl's finished homepage and metadata", async () => {
   assert.match(html, /no start button, account prompt, ad, or upgrade pitch/i);
   assert.match(html, /I built the tuner I wanted to use/);
   assert.match(html, /This tuner is free, and it will stay free/);
-  assert.match(html, /Quieter notes, easier to hear/);
+  assert.match(html, /0\.1\.2/);
+  assert.match(html, /Faster pickup, steadier tuning/);
   assert.match(html, /https:\/\/barbunzel\.com/);
   assert.match(html, /href="\/changelog"/);
   assert.match(html, /href="\/privacy"/);
@@ -70,6 +71,8 @@ test("renders the public changelog with clear release states", async () => {
 
   const html = await response.text();
   assert.match(html, /<title>Changelog — Twiddl<\/title>/i);
+  assert.match(html, /0\.1\.2 · iPhone/);
+  assert.match(html, /12-string guitars/);
   assert.match(html, /0\.1\.1/);
   assert.match(html, /live on iPhone/i);
   assert.match(html, /Google Play closed testing/i);
