@@ -25,14 +25,14 @@ export default function Changelog() {
           <article className="release-entry">
             <div className="release-date">
               <span className="status-badge status-released">Released</span>
-              <time dateTime="2026-08">August 2026</time>
+              <time dateTime="2026-09">September 2026</time>
             </div>
             <div className="release-copy">
-              <p className="release-version">0.1.2 · iPhone</p>
+              <p className="release-version">0.1.2 · iPhone and Android</p>
               <h2>Faster pickup, steadier tuning.</h2>
               <p>
-                Version 0.1.2 improves how Twiddl responds to quiet and changing
-                notes on iPhone.
+                Version 0.1.2 is live on iPhone and available to Android testers
+                through Google Play closed testing.
               </p>
               <ul>
                 <li>

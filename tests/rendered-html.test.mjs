@@ -71,7 +71,7 @@ test("renders the public changelog with clear release states", async () => {
 
   const html = await response.text();
   assert.match(html, /<title>Changelog — Twiddl<\/title>/i);
-  assert.match(html, /0\.1\.2 · iPhone/);
+  assert.match(html, /0\.1\.2 · iPhone and Android/);
   assert.match(html, /12-string guitars/);
   assert.match(html, /0\.1\.1/);
   assert.match(html, /live on iPhone/i);
